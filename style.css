@@ -1,0 +1,111 @@
+#photo-un{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+#fondecran{
+    height: 100vh;
+    width: 100vw;
+    z-index: -2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    opacity: 0.5;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    font-family: century;
+}
+
+.paragraph-div {
+    display: flex;
+    border: 3px grey;
+    gap: 10px;
+    background-color: white;
+
+}
+.paragraph {
+    width: 35%;
+}
+
+.members {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: white;
+}
+.member {
+    height: 200px;
+    width: 200px;
+}
+
+body {
+    color: black;
+    margin: 0%;
+}
+
+
+ol {
+    font-size: 15px;
+    font-family: century;
+}
+
+ul {
+    font-size: 15px;
+    font-family: century;
+}
+
+.album{
+    height: 200px;
+    width: 200px;
+}
+
+.songs {
+    display: flex;
+    border: 3px grey;
+    gap: 10px;
+    background-color: white;
+    justify-content: center
+}
+
+.albums{
+    display: flex;
+    border: 3px grey;
+    gap: 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav{
+    width: 100vw;
+    height: 200px;
+    color: black;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: white
+}
